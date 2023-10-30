@@ -1,0 +1,102 @@
+/* @import '~video-react/styles/scss/video-react'; */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  border-radius: 200px;
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000814;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 200px;
+  height: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+  } 
+
+.bodyOverflowHidden {
+    overflow: hidden;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #d1d3d8;
+  opacity: 1;
+  background: url('./assets/Images/calendericon.svg') no-repeat;
+  margin: auto;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover{
+  color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff; */
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
